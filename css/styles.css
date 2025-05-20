@@ -48,6 +48,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .about {
@@ -65,6 +66,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .header-logo {
@@ -107,6 +109,8 @@ button {
 
 .solution {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .solution-subtitle {
@@ -116,6 +120,9 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .solution-button {
@@ -126,6 +133,8 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 .solution-button:hover,
@@ -134,6 +143,8 @@ button {
 }
 
 .menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .menu-list {
@@ -150,6 +161,8 @@ button {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-subtitle {
@@ -172,6 +185,8 @@ button {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-subtitle {
@@ -194,6 +209,8 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -204,6 +221,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -215,4 +234,5 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
