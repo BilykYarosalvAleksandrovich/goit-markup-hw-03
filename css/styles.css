@@ -104,7 +104,7 @@ button {
   gap: 40px;
 }
 
-. .header-link {
+.header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -205,13 +205,22 @@ button {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background-color: #fff;
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .team-image {
+}
+
+.container-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
 
 .team-content {
@@ -229,12 +238,22 @@ button {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-image {
+}
+
+.conteiner-portfolio {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .portfolio-content {
