@@ -136,6 +136,7 @@ img {
 
 .header-address {
   margin-left: auto;
+  padding: 24px 0;
 }
 
 .header-address-list {
@@ -144,7 +145,6 @@ img {
 }
 
 .header-address-item {
-  padding: 24px 0;
 }
 
 .header-address-link {
